@@ -6,6 +6,7 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a; */
 
+/* https://mercado-liebre-9oi5.onrender.com/ */ 
 *{
     margin: 0px;
     padding: 0px;
@@ -139,6 +140,7 @@ footer {
 }
 footer section {
     width: 30%;
+    margin: auto;
 }
 
 footer strong {
@@ -167,6 +169,7 @@ main section article i{
     position: absolute;
     right: 20px;
     top:-15px;
+    transition: 500ms;
     }
 
 article div{
@@ -341,4 +344,11 @@ p.descripcion{
     margin-bottom: 5px;
     width: 20%;
 }
+    main section article i {
+        font-size: 0.8em;
+        right: 3px;
+        width: 2em;
+        height: 2em;
+        top: -1em;
+    }
 }
